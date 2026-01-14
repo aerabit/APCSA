@@ -6,6 +6,8 @@ import java.awt.*;
 public class Main {
   public static void main(String[] args) {  
     World world = new World(300,300);
+    World world2 = new World(800, 800);
+    World world3 = new World();
    
      
     // Turtle yertle = new Turtle(world);
