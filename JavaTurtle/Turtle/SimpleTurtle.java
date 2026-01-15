@@ -37,10 +37,10 @@ public class SimpleTurtle
   private Picture picture = null;
   
   /** width of turtle in pixels */
-  private int width = 15;
+  private int width = 50;
   
   /** height of turtle in pixels */
-  private int height = 18;
+  private int height = 50;
   
   /** current location in x (center) */
   private int xPos = 0;
@@ -695,6 +695,45 @@ public class SimpleTurtle
   {
     return this.name + " turtle at " + this.xPos + ", " + 
       this.yPos + " heading " + this.heading + ".";
+  }
+
+  public void polygon(int sides, int size) 
+  {
+    for(int i = 0; i < sides; i++)
+    {
+      this.forward(size);
+      this.turn(360/sides);
+    }
+    }
+
+  public void square(int size) 
+  {
+    for(int i = 0; i < 4; i++)
+    {
+      this.forward(size);
+      this.turn(90);
+    }
+  }
+
+  public void circle(int diameter)
+  {
+    for(int i = 0; i < 360; i++) 
+    {
+      this.forward(diameter);
+      this.turn(diameter);
+    }
+  }
+
+  public void star(int size, int numPoints)
+  {
+    for(int i = 0; i < numPoints; i++) 
+      {
+        this.turn(20);
+        this.forward(size);
+        this.turn(120);
+        this.forward(size);
+        this.turn(5/360);
+      }   
   }
   
 } // end of class
