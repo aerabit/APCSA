@@ -53,9 +53,9 @@ public class Main {
     yertle4.setName("Tux");
     yertle4.circle(15);
 
-    System.out.println("Yertle: " + "name: " + yertle.getName() + " distance from 0,0: " + yertle.getDistance(0, 0) + " shape drawn: octagon");
-    System.out.println("Yertle2: " + "name: " + yertle2.getName() + " distance from 0,0: " + yertle2.getDistance(0, 0) + " shape drawn: star");
-    System.out.println("Yertle3: " + "name: " + yertle3.getName() + " distance from 0,0: " + yertle3.getDistance(0, 0) + " shape drawn: square");
-    System.out.println("Yertle4: " + "name: " + yertle4.getName() + " distance from 0,0: " + yertle4.getDistance(0, 0) + " shape drawn: circle");
+    System.out.println("Yertle: " + "name: " + yertle.getName() + " distance from 0,0: " + yertle.getDistance(0, 0) + " shape drawn: octagon" + " pen color: " + yertle.getPenColor());
+    System.out.println("Yertle2: " + "name: " + yertle2.getName() + " distance from 0,0: " + yertle2.getDistance(0, 0) + " shape drawn: star" + " pen color: " + yertle2.getPenColor());
+    System.out.println("Yertle3: " + "name: " + yertle3.getName() + " distance from 0,0: " + yertle3.getDistance(0, 0) + " shape drawn: square" + " pen color: " + yertle3.getPenColor());
+    System.out.println("Yertle4: " + "name: " + yertle4.getName() + " distance from 0,0: " + yertle4.getDistance(0, 0) + " shape drawn: circle" + " pen color: " + yertle4.getPenColor());
   }
 }
