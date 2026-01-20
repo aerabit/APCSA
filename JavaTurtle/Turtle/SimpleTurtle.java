@@ -4,7 +4,6 @@ import java.awt.font.*;
 import java.awt.geom.*;
 import java.util.Observer;
 import java.util.Random;
-
 /**
  * Class that represents a Logo-style turtle.  The turtle
  * starts off facing north.  
@@ -735,5 +734,4 @@ public class SimpleTurtle
         this.turn(5/360);
       }   
   }
-  
 } // end of class
