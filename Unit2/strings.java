@@ -46,6 +46,17 @@ public class strings {
         System.out.println(str2.toLowerCase());
 
         System.out.println(fullStr.toUpperCase());
+
+        // String concatenation order of operations
+        System.out.println("I am " + ((16 * 2) / 8 + 57 / 4.5) + " years old");
+
+        // Math.random();
+        System.out.println((int)(Math.random() * 10) + 1); // 1-10
+
+        System.out.println((int)(Math.random()* 91) + 10); // 10-100
+
+        System.out.println(((int)(Math.random()* 51) * 2) + 2); // 1-100 even
+
     }
 
 }
