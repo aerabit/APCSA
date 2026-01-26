@@ -55,7 +55,7 @@ public class strings {
 
         System.out.println((int)(Math.random()* 91) + 10); // 10-100
 
-        System.out.println(((int)(Math.random()* 51) * 2) + 2); // 1-100 even
+        System.out.println(((int)(Math.random()* 51) * 2) + 2); // 1-100 even nums
 
     }
 
